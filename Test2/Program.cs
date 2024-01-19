@@ -18,14 +18,13 @@ namespace Test2
 
             Car car1 = new Car(123, "Tesla", "Model S");
 
-            Car car2;
-            car2 = new Car(456, "Tesla", "Model X");
+            Car car2 = new Car(456, "Tesla", "Model X");
 
             Car car3 = new Car();
 
-            car3.vin = 555;
-            car3.brand = "BMW";
-            car3.model = "7";
+            car3.vin = 333;
+            car3.brand = "BMW 1";
+            car3.model = "777";
 
 
             Car car4 = new Car("Audi", "Q8");
@@ -38,9 +37,7 @@ namespace Test2
             int i = 1;
 
             foreach (Car car in cars) {
-
-               
-
+              
                 Console.WriteLine("Car Number: " + i);
                 Console.WriteLine("VIN CODE: " + car.vin);
                 Console.WriteLine("Brand: " + car.brand);
